@@ -1,0 +1,3 @@
+[submodule ".claude/plugins/wordpress-skills"]
+	path = .claude/plugins/wordpress-skills
+	url = https://github.com/jorgerosal/wordpress-skills.git
