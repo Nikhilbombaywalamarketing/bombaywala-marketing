@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import { useEffect } from "react";
-import { HelmetProvider } from "react-helmet-async";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import PageLoader from "@/components/layout/PageLoader";
 import Cursor from "@/components/shared/Cursor";
+import { SEOCollectorContext, type SEOState } from "@/components/shared/SEOCollector";
 
 import Home from "@/pages/Home";
 import About from "@/pages/About";
@@ -70,14 +70,27 @@ function Layout() {
   );
 }
 
+// Router-agnostic tree, reused by both the real browser entry (main.tsx,
+// wrapped in BrowserRouter) and scripts/prerender.mjs (wrapped in
+// StaticRouter, one render per route, run in Node at build time — see that
+// script for why: this SPA has no title/meta/content in its raw HTML until
+// JS runs, which is why pages weren't getting indexed). seoCollector is
+// only passed server-side (see SEOCollector.ts for why) — the client
+// doesn't need it, <SEO> updates document.head imperatively there instead.
+export function AppShell({ seoCollector }: { seoCollector?: { current: SEOState | null } }) {
+  return (
+    <SEOCollectorContext.Provider value={seoCollector ?? null}>
+      <Cursor />
+      <PageLoader />
+      <Layout />
+    </SEOCollectorContext.Provider>
+  );
+}
+
 export default function App() {
   return (
-    <HelmetProvider>
-      <BrowserRouter>
-        <Cursor />
-        <PageLoader />
-        <Layout />
-      </BrowserRouter>
-    </HelmetProvider>
+    <BrowserRouter>
+      <AppShell />
+    </BrowserRouter>
   );
 }

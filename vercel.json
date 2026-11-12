@@ -2,6 +2,7 @@
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "framework": null,
+  "cleanUrls": true,
   "redirects": [
     { "source": "/pay-per-click", "destination": "/services/ppc", "permanent": true },
     { "source": "/pay-per-click/", "destination": "/services/ppc", "permanent": true },
