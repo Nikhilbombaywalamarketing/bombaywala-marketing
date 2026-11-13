@@ -8,7 +8,7 @@ export interface BlogPost {
   content: string;
 }
 
-export const blogPosts: BlogPost[] = [
+const rawBlogPosts: BlogPost[] = [
   {
     slug: "seo-vs-google-ads-vs-social-media",
     title: "SEO vs Google Ads vs Social Media: Which Digital Marketing Strategy Is Right for Your Business?",
@@ -8685,6 +8685,14 @@ Search is moving beyond classic Google rankings alone. AI-powered search is grow
 For businesses offering SEO services in Jaipur, digital marketing in Jaipur and related local services, AI Citations are the next step in online visibility. Focusing on quality, trust and user-first content today sets a business up for long-term success in an AI-powered search world.`,
   },
 ];
+
+// Newest-first, by `date` — not insertion order. New posts get appended to
+// rawBlogPosts above wherever's convenient; this is what keeps the latest
+// post showing as "Featured" on /blog instead of whatever happens to be last
+// in the source array.
+export const blogPosts: BlogPost[] = [...rawBlogPosts].sort(
+  (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+);
 
 export function getBlogPost(slug: string): BlogPost | undefined {
   return blogPosts.find((p) => p.slug === slug);

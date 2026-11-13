@@ -2,75 +2,123 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.bombaywalamarketing.com/</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.bombaywalamarketing.com/about</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.bombaywalamarketing.com/case-studies</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.bombaywalamarketing.com/blog</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.bombaywalamarketing.com/contact</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.bombaywalamarketing.com/services/marketing</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.bombaywalamarketing.com/services/tech</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.bombaywalamarketing.com/services/seo</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.bombaywalamarketing.com/services/ppc</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.bombaywalamarketing.com/services/smm</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.bombaywalamarketing.com/services/smo</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.bombaywalamarketing.com/services/ecommerce-marketing</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.bombaywalamarketing.com/blog/ai-citations-explained-how-to-get-mentioned-by-ai</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.bombaywalamarketing.com/blog/how-an-ecommerce-marketing-agency-improves-online-sales-conversions</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.bombaywalamarketing.com/blog/d2c-brand-scaling-agency-ecommerce-growth</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.bombaywalamarketing.com/blog/influencer-marketing-and-product-photography-for-d2c-brands</loc>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.bombaywalamarketing.com/blog/how-to-choose-the-top-shopify-agency-in-vaishali-nagar-jaipur</loc>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.bombaywalamarketing.com/blog/website-development-company-in-vaishali-nagar-jaipur</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.bombaywalamarketing.com/blog/website-development-in-vaishali-nagar-jaipur-essential-features</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.bombaywalamarketing.com/blog/woocommerce-experts-in-vaishali-nagar-jaipur</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.bombaywalamarketing.com/blog/seo-vs-google-ads-vs-social-media</loc>
@@ -243,54 +291,6 @@
   <url>
     <loc>https://www.bombaywalamarketing.com/blog/why-your-google-business-profile-is-not-ranking</loc>
     <lastmod>2026-04-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.bombaywalamarketing.com/blog/woocommerce-experts-in-vaishali-nagar-jaipur</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.bombaywalamarketing.com/blog/website-development-in-vaishali-nagar-jaipur-essential-features</loc>
-    <lastmod>2026-10-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.bombaywalamarketing.com/blog/website-development-company-in-vaishali-nagar-jaipur</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.bombaywalamarketing.com/blog/how-to-choose-the-top-shopify-agency-in-vaishali-nagar-jaipur</loc>
-    <lastmod>2026-10-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.bombaywalamarketing.com/blog/influencer-marketing-and-product-photography-for-d2c-brands</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.bombaywalamarketing.com/blog/d2c-brand-scaling-agency-ecommerce-growth</loc>
-    <lastmod>2026-10-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.bombaywalamarketing.com/blog/how-an-ecommerce-marketing-agency-improves-online-sales-conversions</loc>
-    <lastmod>2026-11-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.bombaywalamarketing.com/blog/ai-citations-explained-how-to-get-mentioned-by-ai</loc>
-    <lastmod>2026-11-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
